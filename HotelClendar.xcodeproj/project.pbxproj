@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DE82B1B2084F1BC0030CB19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B1A2084F1BC0030CB19 /* AppDelegate.m */; };
+		5DE82B1E2084F1BC0030CB19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B1D2084F1BC0030CB19 /* ViewController.m */; };
+		5DE82B212084F1BC0030CB19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE82B1F2084F1BC0030CB19 /* Main.storyboard */; };
+		5DE82B242084F1BC0030CB19 /* HotelClendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B222084F1BC0030CB19 /* HotelClendar.xcdatamodeld */; };
+		5DE82B262084F1BC0030CB19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE82B252084F1BC0030CB19 /* Assets.xcassets */; };
+		5DE82B292084F1BC0030CB19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE82B272084F1BC0030CB19 /* LaunchScreen.storyboard */; };
+		5DE82B2C2084F1BC0030CB19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B2B2084F1BC0030CB19 /* main.m */; };
+		5DE82B362084F1BC0030CB19 /* HotelClendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B352084F1BC0030CB19 /* HotelClendarTests.m */; };
+		5DE82B412084F1BC0030CB19 /* HotelClendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B402084F1BC0030CB19 /* HotelClendarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DE82B322084F1BC0030CB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE82B0E2084F1BC0030CB19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE82B152084F1BC0030CB19;
+			remoteInfo = HotelClendar;
+		};
+		5DE82B3D2084F1BC0030CB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE82B0E2084F1BC0030CB19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE82B152084F1BC0030CB19;
+			remoteInfo = HotelClendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DE82B162084F1BC0030CB19 /* HotelClendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelClendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE82B192084F1BC0030CB19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DE82B1A2084F1BC0030CB19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DE82B1C2084F1BC0030CB19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DE82B1D2084F1BC0030CB19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DE82B202084F1BC0030CB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DE82B232084F1BC0030CB19 /* HotelClendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HotelClendar.xcdatamodel; sourceTree = "<group>"; };
+		5DE82B252084F1BC0030CB19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DE82B282084F1BC0030CB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DE82B2A2084F1BC0030CB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE82B2B2084F1BC0030CB19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DE82B312084F1BC0030CB19 /* HotelClendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelClendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE82B352084F1BC0030CB19 /* HotelClendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotelClendarTests.m; sourceTree = "<group>"; };
+		5DE82B372084F1BC0030CB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE82B3C2084F1BC0030CB19 /* HotelClendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelClendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE82B402084F1BC0030CB19 /* HotelClendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotelClendarUITests.m; sourceTree = "<group>"; };
+		5DE82B422084F1BC0030CB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DE82B132084F1BC0030CB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE82B2E2084F1BC0030CB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE82B392084F1BC0030CB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DE82B0D2084F1BC0030CB19 = {
+			isa = PBXGroup;
+			children = (
+				5DE82B182084F1BC0030CB19 /* HotelClendar */,
+				5DE82B342084F1BC0030CB19 /* HotelClendarTests */,
+				5DE82B3F2084F1BC0030CB19 /* HotelClendarUITests */,
+				5DE82B172084F1BC0030CB19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DE82B172084F1BC0030CB19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DE82B162084F1BC0030CB19 /* HotelClendar.app */,
+				5DE82B312084F1BC0030CB19 /* HotelClendarTests.xctest */,
+				5DE82B3C2084F1BC0030CB19 /* HotelClendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DE82B182084F1BC0030CB19 /* HotelClendar */ = {
+			isa = PBXGroup;
+			children = (
+				5DE82B192084F1BC0030CB19 /* AppDelegate.h */,
+				5DE82B1A2084F1BC0030CB19 /* AppDelegate.m */,
+				5DE82B1C2084F1BC0030CB19 /* ViewController.h */,
+				5DE82B1D2084F1BC0030CB19 /* ViewController.m */,
+				5DE82B1F2084F1BC0030CB19 /* Main.storyboard */,
+				5DE82B252084F1BC0030CB19 /* Assets.xcassets */,
+				5DE82B272084F1BC0030CB19 /* LaunchScreen.storyboard */,
+				5DE82B2A2084F1BC0030CB19 /* Info.plist */,
+				5DE82B2B2084F1BC0030CB19 /* main.m */,
+				5DE82B222084F1BC0030CB19 /* HotelClendar.xcdatamodeld */,
+			);
+			path = HotelClendar;
+			sourceTree = "<group>";
+		};
+		5DE82B342084F1BC0030CB19 /* HotelClendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE82B352084F1BC0030CB19 /* HotelClendarTests.m */,
+				5DE82B372084F1BC0030CB19 /* Info.plist */,
+			);
+			path = HotelClendarTests;
+			sourceTree = "<group>";
+		};
+		5DE82B3F2084F1BC0030CB19 /* HotelClendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE82B402084F1BC0030CB19 /* HotelClendarUITests.m */,
+				5DE82B422084F1BC0030CB19 /* Info.plist */,
+			);
+			path = HotelClendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DE82B152084F1BC0030CB19 /* HotelClendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE82B452084F1BC0030CB19 /* Build configuration list for PBXNativeTarget "HotelClendar" */;
+			buildPhases = (
+				5DE82B122084F1BC0030CB19 /* Sources */,
+				5DE82B132084F1BC0030CB19 /* Frameworks */,
+				5DE82B142084F1BC0030CB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotelClendar;
+			productName = HotelClendar;
+			productReference = 5DE82B162084F1BC0030CB19 /* HotelClendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DE82B302084F1BC0030CB19 /* HotelClendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE82B482084F1BC0030CB19 /* Build configuration list for PBXNativeTarget "HotelClendarTests" */;
+			buildPhases = (
+				5DE82B2D2084F1BC0030CB19 /* Sources */,
+				5DE82B2E2084F1BC0030CB19 /* Frameworks */,
+				5DE82B2F2084F1BC0030CB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE82B332084F1BC0030CB19 /* PBXTargetDependency */,
+			);
+			name = HotelClendarTests;
+			productName = HotelClendarTests;
+			productReference = 5DE82B312084F1BC0030CB19 /* HotelClendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DE82B3B2084F1BC0030CB19 /* HotelClendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE82B4B2084F1BC0030CB19 /* Build configuration list for PBXNativeTarget "HotelClendarUITests" */;
+			buildPhases = (
+				5DE82B382084F1BC0030CB19 /* Sources */,
+				5DE82B392084F1BC0030CB19 /* Frameworks */,
+				5DE82B3A2084F1BC0030CB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE82B3E2084F1BC0030CB19 /* PBXTargetDependency */,
+			);
+			name = HotelClendarUITests;
+			productName = HotelClendarUITests;
+			productReference = 5DE82B3C2084F1BC0030CB19 /* HotelClendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DE82B0E2084F1BC0030CB19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = cnmobi;
+				TargetAttributes = {
+					5DE82B152084F1BC0030CB19 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5DE82B302084F1BC0030CB19 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DE82B152084F1BC0030CB19;
+					};
+					5DE82B3B2084F1BC0030CB19 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DE82B152084F1BC0030CB19;
+					};
+				};
+			};
+			buildConfigurationList = 5DE82B112084F1BC0030CB19 /* Build configuration list for PBXProject "HotelClendar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DE82B0D2084F1BC0030CB19;
+			productRefGroup = 5DE82B172084F1BC0030CB19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DE82B152084F1BC0030CB19 /* HotelClendar */,
+				5DE82B302084F1BC0030CB19 /* HotelClendarTests */,
+				5DE82B3B2084F1BC0030CB19 /* HotelClendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DE82B142084F1BC0030CB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE82B292084F1BC0030CB19 /* LaunchScreen.storyboard in Resources */,
+				5DE82B262084F1BC0030CB19 /* Assets.xcassets in Resources */,
+				5DE82B212084F1BC0030CB19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE82B2F2084F1BC0030CB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE82B3A2084F1BC0030CB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DE82B122084F1BC0030CB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE82B1E2084F1BC0030CB19 /* ViewController.m in Sources */,
+				5DE82B242084F1BC0030CB19 /* HotelClendar.xcdatamodeld in Sources */,
+				5DE82B2C2084F1BC0030CB19 /* main.m in Sources */,
+				5DE82B1B2084F1BC0030CB19 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE82B2D2084F1BC0030CB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE82B362084F1BC0030CB19 /* HotelClendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE82B382084F1BC0030CB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE82B412084F1BC0030CB19 /* HotelClendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DE82B332084F1BC0030CB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE82B152084F1BC0030CB19 /* HotelClendar */;
+			targetProxy = 5DE82B322084F1BC0030CB19 /* PBXContainerItemProxy */;
+		};
+		5DE82B3E2084F1BC0030CB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE82B152084F1BC0030CB19 /* HotelClendar */;
+			targetProxy = 5DE82B3D2084F1BC0030CB19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DE82B1F2084F1BC0030CB19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DE82B202084F1BC0030CB19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DE82B272084F1BC0030CB19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DE82B282084F1BC0030CB19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DE82B432084F1BC0030CB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DE82B442084F1BC0030CB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DE82B462084F1BC0030CB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTEFL7WAQ6;
+				INFOPLIST_FILE = HotelClendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cnmobi.com.HotelClendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DE82B472084F1BC0030CB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTEFL7WAQ6;
+				INFOPLIST_FILE = HotelClendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cnmobi.com.HotelClendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DE82B492084F1BC0030CB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTEFL7WAQ6;
+				INFOPLIST_FILE = HotelClendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cnmobi.com.HotelClendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotelClendar.app/HotelClendar";
+			};
+			name = Debug;
+		};
+		5DE82B4A2084F1BC0030CB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTEFL7WAQ6;
+				INFOPLIST_FILE = HotelClendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cnmobi.com.HotelClendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotelClendar.app/HotelClendar";
+			};
+			name = Release;
+		};
+		5DE82B4C2084F1BC0030CB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTEFL7WAQ6;
+				INFOPLIST_FILE = HotelClendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cnmobi.com.HotelClendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotelClendar;
+			};
+			name = Debug;
+		};
+		5DE82B4D2084F1BC0030CB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTEFL7WAQ6;
+				INFOPLIST_FILE = HotelClendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cnmobi.com.HotelClendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotelClendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DE82B112084F1BC0030CB19 /* Build configuration list for PBXProject "HotelClendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE82B432084F1BC0030CB19 /* Debug */,
+				5DE82B442084F1BC0030CB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE82B452084F1BC0030CB19 /* Build configuration list for PBXNativeTarget "HotelClendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE82B462084F1BC0030CB19 /* Debug */,
+				5DE82B472084F1BC0030CB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE82B482084F1BC0030CB19 /* Build configuration list for PBXNativeTarget "HotelClendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE82B492084F1BC0030CB19 /* Debug */,
+				5DE82B4A2084F1BC0030CB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE82B4B2084F1BC0030CB19 /* Build configuration list for PBXNativeTarget "HotelClendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE82B4C2084F1BC0030CB19 /* Debug */,
+				5DE82B4D2084F1BC0030CB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5DE82B222084F1BC0030CB19 /* HotelClendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5DE82B232084F1BC0030CB19 /* HotelClendar.xcdatamodel */,
+			);
+			currentVersion = 5DE82B232084F1BC0030CB19 /* HotelClendar.xcdatamodel */;
+			path = HotelClendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5DE82B0E2084F1BC0030CB19 /* Project object */;
+}
