@@ -16,6 +16,13 @@
 		5DE82B2C2084F1BC0030CB19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B2B2084F1BC0030CB19 /* main.m */; };
 		5DE82B362084F1BC0030CB19 /* HotelClendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B352084F1BC0030CB19 /* HotelClendarTests.m */; };
 		5DE82B412084F1BC0030CB19 /* HotelClendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B402084F1BC0030CB19 /* HotelClendarUITests.m */; };
+		5DE82B572084F24A0030CB19 /* HmSearchCalendar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DE82B512084F2490030CB19 /* HmSearchCalendar.xib */; };
+		5DE82B582084F24A0030CB19 /* HmSearchCalendarBodyCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B522084F2490030CB19 /* HmSearchCalendarBodyCollectionCell.m */; };
+		5DE82B592084F24A0030CB19 /* HmSearchCalendarBodyCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DE82B532084F2490030CB19 /* HmSearchCalendarBodyCollectionCell.xib */; };
+		5DE82B5A2084F24A0030CB19 /* HmSearchCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B542084F2490030CB19 /* HmSearchCalendar.m */; };
+		5DE82B5B2084F24A0030CB19 /* HmSearchCalendarHeaderCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B552084F24A0030CB19 /* HmSearchCalendarHeaderCollectionCell.m */; };
+		5DE82B5C2084F24A0030CB19 /* HmSearchCalendarHeaderCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DE82B562084F24A0030CB19 /* HmSearchCalendarHeaderCollectionCell.xib */; };
+		5DE82B5F2084F2820030CB19 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE82B5E2084F2820030CB19 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,17 @@
 		5DE82B3C2084F1BC0030CB19 /* HotelClendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelClendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE82B402084F1BC0030CB19 /* HotelClendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotelClendarUITests.m; sourceTree = "<group>"; };
 		5DE82B422084F1BC0030CB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE82B4E2084F2480030CB19 /* HmSearchCalendarHeaderCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HmSearchCalendarHeaderCollectionCell.h; sourceTree = "<group>"; };
+		5DE82B4F2084F2480030CB19 /* HmSearchCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HmSearchCalendar.h; sourceTree = "<group>"; };
+		5DE82B502084F2490030CB19 /* HmSearchCalendarBodyCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HmSearchCalendarBodyCollectionCell.h; sourceTree = "<group>"; };
+		5DE82B512084F2490030CB19 /* HmSearchCalendar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HmSearchCalendar.xib; sourceTree = "<group>"; };
+		5DE82B522084F2490030CB19 /* HmSearchCalendarBodyCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HmSearchCalendarBodyCollectionCell.m; sourceTree = "<group>"; };
+		5DE82B532084F2490030CB19 /* HmSearchCalendarBodyCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HmSearchCalendarBodyCollectionCell.xib; sourceTree = "<group>"; };
+		5DE82B542084F2490030CB19 /* HmSearchCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HmSearchCalendar.m; sourceTree = "<group>"; };
+		5DE82B552084F24A0030CB19 /* HmSearchCalendarHeaderCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HmSearchCalendarHeaderCollectionCell.m; sourceTree = "<group>"; };
+		5DE82B562084F24A0030CB19 /* HmSearchCalendarHeaderCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HmSearchCalendarHeaderCollectionCell.xib; sourceTree = "<group>"; };
+		5DE82B5D2084F2820030CB19 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		5DE82B5E2084F2820030CB19 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +125,17 @@
 				5DE82B1A2084F1BC0030CB19 /* AppDelegate.m */,
 				5DE82B1C2084F1BC0030CB19 /* ViewController.h */,
 				5DE82B1D2084F1BC0030CB19 /* ViewController.m */,
+				5DE82B4F2084F2480030CB19 /* HmSearchCalendar.h */,
+				5DE82B542084F2490030CB19 /* HmSearchCalendar.m */,
+				5DE82B512084F2490030CB19 /* HmSearchCalendar.xib */,
+				5DE82B502084F2490030CB19 /* HmSearchCalendarBodyCollectionCell.h */,
+				5DE82B522084F2490030CB19 /* HmSearchCalendarBodyCollectionCell.m */,
+				5DE82B532084F2490030CB19 /* HmSearchCalendarBodyCollectionCell.xib */,
+				5DE82B4E2084F2480030CB19 /* HmSearchCalendarHeaderCollectionCell.h */,
+				5DE82B552084F24A0030CB19 /* HmSearchCalendarHeaderCollectionCell.m */,
+				5DE82B562084F24A0030CB19 /* HmSearchCalendarHeaderCollectionCell.xib */,
+				5DE82B5D2084F2820030CB19 /* UIView+Extension.h */,
+				5DE82B5E2084F2820030CB19 /* UIView+Extension.m */,
 				5DE82B1F2084F1BC0030CB19 /* Main.storyboard */,
 				5DE82B252084F1BC0030CB19 /* Assets.xcassets */,
 				5DE82B272084F1BC0030CB19 /* LaunchScreen.storyboard */,
@@ -242,7 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE82B292084F1BC0030CB19 /* LaunchScreen.storyboard in Resources */,
+				5DE82B5C2084F24A0030CB19 /* HmSearchCalendarHeaderCollectionCell.xib in Resources */,
 				5DE82B262084F1BC0030CB19 /* Assets.xcassets in Resources */,
+				5DE82B572084F24A0030CB19 /* HmSearchCalendar.xib in Resources */,
+				5DE82B592084F24A0030CB19 /* HmSearchCalendarBodyCollectionCell.xib in Resources */,
 				5DE82B212084F1BC0030CB19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,9 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DE82B582084F24A0030CB19 /* HmSearchCalendarBodyCollectionCell.m in Sources */,
 				5DE82B1E2084F1BC0030CB19 /* ViewController.m in Sources */,
 				5DE82B242084F1BC0030CB19 /* HotelClendar.xcdatamodeld in Sources */,
 				5DE82B2C2084F1BC0030CB19 /* main.m in Sources */,
+				5DE82B5B2084F24A0030CB19 /* HmSearchCalendarHeaderCollectionCell.m in Sources */,
+				5DE82B5A2084F24A0030CB19 /* HmSearchCalendar.m in Sources */,
+				5DE82B5F2084F2820030CB19 /* UIView+Extension.m in Sources */,
 				5DE82B1B2084F1BC0030CB19 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
